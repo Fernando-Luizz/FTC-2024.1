@@ -20,7 +20,7 @@ def entrada():
     return input()
 
 def saida(resultado):
-    print(f"{resultado}")
+    print(resultado)
 
 def manipular_fita(fita):
     # Estados
