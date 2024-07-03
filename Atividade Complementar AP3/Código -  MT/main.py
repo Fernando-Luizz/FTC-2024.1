@@ -17,12 +17,10 @@ questão.
 # Fernando Luiz Da Silva Freire   Matrícula: 2315310007
 
 def entrada():
-    print("{:^50}".format("\nENTRADA"))
-    return input("Digite a fita (formato X#Y): ")
+    return input()
 
 def saida(resultado):
-    print("{:^50}".format("\nSAÍDA"))
-    print(f"{resultado: <30}")
+    print(f"{resultado}")
 
 def manipular_fita(fita):
     # Estados
